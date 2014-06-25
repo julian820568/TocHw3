@@ -4,7 +4,6 @@
 一行一行比對想尋找的項目
 加總後平均，並output
 */
-
 package HW3;
 
 import java.io.*;
@@ -19,12 +18,15 @@ public class TocHW3 {
 		String input = "", price = "";
 		int i, j, sum = 0, counter = 0;
 		
-		if( args[3].equals("") == false ) {
+		if( args.length == 4 ) {
 			url = new URL(args[0]);
 			city += args[1];
 			road_name += args[2];
 			year += args[3];
-		} else return;
+		} else {
+			System.out.println("reject");
+			return;
+		}
 		
 		URLConnection connect = url.openConnection();
 		InputStreamReader isr = new InputStreamReader(connect.getInputStream(), "UTF-8");
