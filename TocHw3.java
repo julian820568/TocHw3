@@ -4,7 +4,6 @@
 一行一行比對想尋找的項目
 加總後平均，並output
 */
-package HW3;
 
 import java.io.*;
 import java.net.*;
