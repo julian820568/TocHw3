@@ -10,7 +10,7 @@ import java.io.*;
 import java.net.*;
 import java.util.regex.*;
 
-public class TocHW3 {
+public class TocHw3 {
 	static URL url;
 	
 	public static void main(String[] args) throws IOException {
