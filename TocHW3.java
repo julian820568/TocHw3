@@ -1,3 +1,12 @@
+Write your basic information in the start of the source code, 
+including your name, your student number and brief description of your code.
+//蔣承儒, F7400649
+/*
+用BufferedReader配合InputStreamReader讀入網頁
+一行一行比對想尋找的項目
+加總後平均，並output
+*/
+
 package HW3;
 
 import java.io.*;
